@@ -7,7 +7,7 @@ DEVICE_PATH := device/samsung/star2lte
 TARGET_OTA_ASSERT_DEVICE := star2ltexx,star2lteks,star2lte
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos9810-star2lte_defconfig
+TARGET_KERNEL_CONFIG := exynos9810-star2lte_calikernel_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
