@@ -10,5 +10,5 @@ GAPPS_PRODUCT_PACKAGES += Chrome GoogleContacts PrebuiltBugle
 -include $(LOCAL_PATH)/system_prop.mk
 
 # Inherit common device configuration
-$(call inherit-product, device/samsung/star-common/star-common.mk)
+$(call inherit-product, device/samsung/universal9810-common/universal9810-common.mk)
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)

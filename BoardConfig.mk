@@ -13,7 +13,7 @@ TARGET_KERNEL_CONFIG := exynos9810-star2lte_calikernel_defconfig
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Inherit common board flags
-include device/samsung/star-common/BoardConfigCommon.mk
+include device/samsung/universal9810-common/BoardConfigCommon.mk
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
