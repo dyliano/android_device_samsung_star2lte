@@ -23,3 +23,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # Set default locale
 PRODUCT_LOCALES := en-GB
+
+# DEX pre-optimization
+WITH_DEXPREOPT := true
